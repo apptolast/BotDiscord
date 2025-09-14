@@ -1,0 +1,12 @@
+# Discord Poll Bot Dependencies
+# Production dependencies for the Discord Interactive Poll Bot
+
+# Core Discord API integration
+discord.py>=2.3.0
+
+# Environment variable management for secure token handling
+python-dotenv>=1.0.0
+
+# Additional production recommendations (optional but recommended):
+# aiohttp>=3.8.0  # Enhanced HTTP client for better performance
+# uvloop>=0.17.0  # High-performance event loop for Unix systems (Linux/macOS only)
